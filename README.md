@@ -1,3 +1,4 @@
 # personal_web
 
-https://hellophone.vercal.app
+https://hellophone.vercel.app
+https://hellophone.tk
