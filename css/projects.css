@@ -1,0 +1,173 @@
+body {
+	text-align:center;
+    width:100%;
+    margin:0 auto;
+    padding:0px;
+    font-family:helvetica;
+    background-color:#81DAF5;
+    background: url(pic/hkbg1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@font-face{
+    font-family: 王漢宗特圓體繁;
+    src: url(css\fonts\王漢宗特圓體繁.ttf);
+  }
+  h1,h2,h4,h5,h6{
+      font-family: 王漢宗特圓體繁;
+      color: #00ffff;
+  }
+  p,span,li,label{
+      font-family: 王漢宗特圓體繁;
+      color: #00ffff !important;
+  }
+  a{
+    color: #fff;
+    text-decoration: none !important;
+  }
+  ::selection{
+      color: cyan;
+  }
+  ::-moz-selection{
+      color: cyan;
+  }
+  img{
+      max-width:100%;
+  }
+
+
+
+/*navbar*/
+#nav-img{
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+  }
+  .nav li:after{
+      content: '';
+      display: block;
+        border-bottom: 2px solid #38fd07;
+        transform: scaleX(0);
+        transition: .2s ease-in-out;
+  }
+  .nav li:hover:after{
+         transform: scaleX(1);
+  }
+  .nav-link{
+        color: #fff;
+      font-size: 16px;
+      display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  #links{
+      color: #fff;
+  }
+  
+  /*navbar ends*/
+
+
+
+  .container {
+    width: 300px;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+  }
+  
+  .card1 {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1::before {    
+      content: "";
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.75;
+}
+
+p {
+  position: relative;
+  color: #000;  
+
+}
+
+.no_op{
+    opacity: 100;
+    z-index: 100;
+}
+.card1 , .card2{
+    background-color: black !important;
+    position: absolute;
+  }
+  .card2{
+    position: absolute;
+  }
+  @media screen and (max-width: 800px) {
+    .card {   
+      width: 100%;
+      padding: 0;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+  }
+
+  .left, .right {
+    width: 50%; 
+}
+  .left {
+    float: left;
+}
+  .right {
+    float: right;
+}
+@media screen and (max-width: 900px) {
+    .right, .left {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .button_link {
+    color: inherit;
+   }
+  .button {
+      background-color: transparent;
+      border: 3px solid #00d7c3;
+      border-radius: 50px;
+      -webkit-transition: all .15s ease-in-out;
+      transition: all .15s ease-in-out;
+      color: #00d7c3;
+      text-decoration: none;
+    }
+  .button:hover {
+      box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+      border: 3px solid #00d7c3;
+    }
+  .button:active {
+      box-shadow: none;
+      border: 3px solid #00d7c3;
+    }
+  .button:focus {
+      outline: none;
+      box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0
+      0 0 3px #00d7c3;
+      border: 3px solid #00d7c3;
+    }

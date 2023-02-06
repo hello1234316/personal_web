@@ -1,0 +1,178 @@
+body {
+	text-align:center;
+    width:100%;
+    margin:0 auto;
+    padding:0px;
+    font-family:helvetica;
+    background-color:#81DAF5;
+    background: url(pic/hkbg1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@font-face{
+  font-family: 王漢宗特圓體繁;
+  src: url(css\fonts\王漢宗特圓體繁.ttf);
+}
+h1,h2,h4,h5,h6{
+    font-family: 王漢宗特圓體繁;
+    color: white !important;
+}
+p,a,span,li,label{
+	font-family: 王漢宗特圓體繁;
+	color: #f4f4f4;
+}
+a{
+	color: #fff;
+  text-decoration: none !important;
+}
+::selection{
+	color: cyan;
+}
+::-moz-selection{
+	color: cyan;
+}
+img{
+	max-width:100%;
+}
+
+
+/*navbar*/
+#nav-img{
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+.nav li:after{
+	content: '';
+	display: block;
+	  border-bottom: 2px solid #38fd07;
+	  transform: scaleX(0);
+	  transition: .2s ease-in-out;
+}
+.nav li:hover:after{
+	   transform: scaleX(1);
+}
+.nav-link{
+	  color: #fff;
+    font-size: 16px;
+    display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#links{
+	color: #fff;
+}
+
+/*navbar ends*/
+
+
+/*avarar*/
+.img-circle-small {
+  width: 100px;
+  height:90px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  margin-bottom: 2px;
+}
+.status{
+  width: 16px;
+  height:16px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  position: absolute;
+  background-color: green; /*means onlne*/
+
+}
+.temp{
+  position: relative;
+  display: inline-block;
+}
+.topRight{
+  top: 0;
+  right: 0;
+}
+/*avatar ends*/
+
+/*content*/
+.container {
+  width: 500px;
+  height:400px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+.child {
+  width: 800px;
+  height: 10px;
+}
+.roller{
+    height: 4.125rem;
+    line-height: 4rem;
+    position: relative;
+    overflow: hidden; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.roller #rolltext {
+    position: absolute;
+    top: 0;
+    animation: slide 5s infinite;  
+}
+@keyframes slide {
+  0%{
+    top:0;
+  }
+  25%{
+    top: -4rem;    
+  }
+  50%{
+    top: -8rem;
+  }
+  72.5%{
+    top: -12.25rem;
+  }
+}
+/*content ends*/
+
+
+/*button*/
+.button_link {
+  color: inherit;
+ }
+.button {
+    background-color: transparent;
+    border: 3px solid #00d7c3;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #00d7c3;
+    text-decoration: none;
+  }
+.button:hover {
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid #00d7c3;
+  }
+.button:active {
+    box-shadow: none;
+    border: 3px solid #00d7c3;
+  }
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0
+    0 0 3px #00d7c3;
+    border: 3px solid #00d7c3;
+  }
+/*button ends*/
+
+/*projects*/
+
