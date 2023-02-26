@@ -1,41 +1,42 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css); /*Noto Sans 思源黑體*/
+
+
 body {
-	text-align:center;
+    text-align:center;
     width:100%;
     margin:0 auto;
     padding:0px;
     font-family:helvetica;
     background-color:#81DAF5;
-    background: url(pic/hkbg.jpg) no-repeat center center fixed; 
+    background: url(https://cdn.discordapp.com/attachments/1066946486232944720/1079270691309879345/animebg.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-@font-face{
-    font-family: 王漢宗特圓體繁;
-    src: url(css\fonts\王漢宗特圓體繁.ttf);
-  }
-  h1,h2,h4,h5,h6{
-      font-family: 王漢宗特圓體繁;
-      color: #00ffff;
-  }
-  p,span,li,label{
-      font-family: 王漢宗特圓體繁;
-      color: #00ffff !important;
-  }
-  a{
-    color: #fff;
-    text-decoration: none !important;
-  }
-  ::selection{
-      color: cyan;
-  }
-  ::-moz-selection{
-      color: cyan;
-  }
-  img{
+h1,h2,h4,h5,h6{
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+    color: #f4f4f4;
+}
+p,a,span,li,label{
+	/*font-family: 'Helvetica', 'Arial', 'Noto Sans TC', '黑體-繁','微軟正黑體', sans-serif !important;*/
+	/*color: #f4f4f4;*/
+	font-family: 'Noto Sans TC',sans-serif !important;
+	color: #fff;
+}
+a{
+	color: #fff;
+  text-decoration: none !important;
+}
+::selection{
+	color: cyan;
+}
+::-moz-selection{
+	color: cyan;
+}
+img{
       max-width:100%;
-  }
+}
 
 
 
