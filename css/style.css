@@ -8,7 +8,7 @@ body {
     padding:0px;
     font-family:helvetica;
     background-color:#81DAF5;
-    background: url(https://cdn.discordapp.com/attachments/1066946486232944720/1079270691309879345/animebg.jpg) no-repeat center center fixed; 
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ) , url(https://cdn.discordapp.com/attachments/1066946486232944720/1079270691309879345/animebg.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
