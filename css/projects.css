@@ -22,7 +22,7 @@ p,a,span,li,label{
 	/*font-family: 'Helvetica', 'Arial', 'Noto Sans TC', '黑體-繁','微軟正黑體', sans-serif !important;*/
 	/*color: #f4f4f4;*/
 	font-family: 'Noto Sans TC',sans-serif !important;
-	color: #fff !important;
+	color: #fff;
 }
 a{
 	color: #fff;
