@@ -21,7 +21,7 @@
 		<meta name="description" content="Hello Phone 個人網站ඞ">
 		<meta name="title" content="Hello Phone">
 		<title>Hello Phone</title>
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="style.css">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 		<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Open+Sans&display=swap" rel="stylesheet">
@@ -31,30 +31,48 @@
 		<script src="https://kit.fontawesome.com/020c79da9f.js" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 	</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg nav">
-        <div class="container-fluid"> <a class="navbar-brand" href="index.html"><img src='pic/hello.png' width='30' id="nav-img"></a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"> <a class="nav-link" id="links" aria-current="page" href="#"><i class="fa-solid fa-house"></i>主頁</a> </li>
-                    <li class="nav-item"> <a class="nav-link" id="links" aria-current="page" href="projects.html"><i class="fa-solid fa-code"></i>項目</a> </li>
-                    <li class="nav-item"> <a class="nav-link" id="links" href="https: //discord.gg/myit"><i class="fa-brands fa-discord"></i>Discord</a> </li>
-                    <li class="nav-item"> <a class="nav-link" id="links" href="https://github.com/hello1234316/"><i class="fa-brands fa-github"></i>Github</a> </li>
-                </ul>
+    <body>
+        <nav class="navbar navbar-expand-lg nav">
+            <div class="container-fluid"> <a class="navbar-brand" href="index.html"><img src='pic/hello.png' width='30' id="nav-img"></a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"> <a class="nav-link" id="links" aria-current="page" href="#"><i class="fa-solid fa-house"></i>主頁</a> </li>
+                        <li class="nav-item"> <a class="nav-link" id="links" aria-current="page" href="projects.html"><i class="fa-solid fa-code"></i>項目</a> </li>
+                        <li class="nav-item"> <a class="nav-link" id="links" href="https: //discord.gg/myit"><i class="fa-brands fa-discord"></i>Discord</a> </li>
+                        <li class="nav-item"> <a class="nav-link" id="links" href="https://github.com/hello1234316/"><i class="fa-brands fa-github"></i>Github</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav><br><br><br><br>
+        <div class="container">
+            <div class="child"><br><br><br>
+                <div class="temp"><img src="pic/hello.png" alt="avatar" class="img-circle-small"><span class="status topRight">&nbsp</span> </div>
+                <div class="main">
+                    <h1><div id="typing-text"></div> <div class="roller"> <span id="rolltext">ඞ<br>☜ඞo<br>ඞɔ <br>ඞඞ </div>
+                    </h1>
+                </div>
+                <button type="button" class="button" id="changeBackground"><i class="fa-solid fa-shuffle"></i> 隨機更改背景</button>
+                <div class="center"><button type="button" class="button"> <a class="button_link" href="https://discord.gg/myit"><i class="fa-brands fa-discord"></i>Discord</a></button><button type="button" class="button"> <a class="button_link" href="https://github.com/hello1234316"><i class="fa-brands fa-github"></i>Github</a></button></div>
             </div>
         </div>
-    </nav><br><br><br><br>
-    <div class="container">
-        <div class="child"><br><br><br>
-            <div class="temp"><img src="pic/hello.png" alt="avatar" class="img-circle-small"><span class="status topRight">&nbsp</span> </div>
-            <div class="main">
-                <h1>Hello Phone<div class="roller"> <span id="rolltext">ඞ<br>☜ඞo<br>ඞɔ <br>ඞඞ </div>
-                </h1>
-            </div>
-            <div class="center"><button type="button" class="button"> <a class="button_link" href="https://discord.gg/myit"><i class="fa-brands fa-discord"></i>Discord</a></button><button type="button" class="button"> <a class="button_link" href="https://github.com/hello1234316"><i class="fa-brands fa-github"></i>Github</a></button></div>
-        </div>
-    </div>
-</body>
+    </body>
+    
 
-</html>
+<script>
+  const text = "Hello Phone";
+  let index = 0;
+
+  function typeText() {
+    const typingText = document.getElementById("typing-text");
+    typingText.innerHTML += text[index];
+    index++;
+
+    if(index < text.length) {
+      setTimeout(typeText, 100);
+    }
+  }
+
+  typeText();
+</script>
+    <script src="script.js"></script>
+    </html>
