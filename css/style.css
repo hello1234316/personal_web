@@ -7,55 +7,12 @@
     padding:0px;
     font-family:helvetica;
     background-color:#81DAF5;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ) ,  url(https://cdn.discordapp.com/attachments/1066946486232944720/1079270691309879345/animebg.jpg) no-repeat center center fixed; 
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ) ,  url(https://wallpapercave.com/wp/wp1848050.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
-  
-  .background2 {
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    padding:0px;
-    font-family:helvetica;
-    background-color:#81DAF5;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ) ,  url(https://cdn.discordapp.com/attachments/913027869536559144/1089007343074807928/cute-girl-drinking-a-cofee-in-a-cozy-coffee-shop-anime-key-visual-anime-screenshot-artstation-studio-ghibli_3O8TOmmC_upscaled_2.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  
-  .background3 {
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    padding:0px;
-    font-family:helvetica;
-    background-color:#81DAF5;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ) ,  url(https://cdn.discordapp.com/attachments/913027869536559144/1089008373971816489/bg3.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-  .background4 {
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    padding:0px;
-    font-family:helvetica;
-    background-color:#81DAF5;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ) ,  url(https://cdn.discordapp.com/attachments/913027869536559144/1089008755494109224/bg4.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
 h1,h2,h4,h5,h6{
     font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
     color: #f4f4f4 !important;
@@ -65,6 +22,17 @@ p,a,span,li,label{
 	/*color: #f4f4f4;*/
 	font-family: 'Noto Sans TC',sans-serif !important;
 	color: #fff;
+}
+p1 {
+	font-family: 'Noto Sans TC',sans-serif !important;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 600;
+	line-height: 1.5em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	text-align: justify;
+	text-justify: inter-ideograph;
 }
 a{
 	color: #fff;
@@ -243,4 +211,3 @@ img{
     border: 3px solid #00d7c3;
   }
 /*button ends*/
-
