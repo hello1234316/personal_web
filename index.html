@@ -48,6 +48,7 @@
             <div class="child"><br><br><br>
                 <div class="temp"><img src="pic/hello.png" alt="avatar" class="img-circle-small"><span class="status topRight">&nbsp</span> </div>
                 <div class="main">
+                    <p class="name">Hello Phone</p>
                     <h1><div id="typing-text"></div> <div class="roller"> <span id="rolltext">ඞ<br>☜ඞo<br>ඞɔ <br>ඞඞ </div>
                     </h1>
                 </div>
@@ -56,23 +57,8 @@
             </div>
         </div>
     </body>
+
     
 
-<script>
-  const text = "Hello Phone";
-  let index = 0;
-
-  function typeText() {
-    const typingText = document.getElementById("typing-text");
-    typingText.innerHTML += text[index];
-    index++;
-
-    if(index < text.length) {
-      setTimeout(typeText, 100);
-    }
-  }
-
-  typeText();
-</script>
     <script src="js/script.js"></script>
     </html>
