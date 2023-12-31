@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css); /*Noto Sans 思源黑體*/
+/*@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');*/
 
   body {
-    text-align:center;
     width:100%;
     margin:0 auto;
     padding:0px;
@@ -142,6 +142,33 @@ img{
 }
 /*avatar ends*/
 
+/*type writer:name*/
+.name {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+  margin: 0 auto;
+}
+
+.name {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+  animated-cursor 600ms steps(29,end) infinite;
+}
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+}
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
+/*type writer ends*/
+
 /*content*/
 .container {
   width: 500px;
@@ -217,5 +244,3 @@ img{
   }
 /*button ends*/
 
-/*projects*/
-  
