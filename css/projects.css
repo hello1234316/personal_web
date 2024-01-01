@@ -148,29 +148,24 @@ p {
   .button_link {
     color: inherit;
    }
-  .button {
-      background-color: transparent;
-      border: 3px solid #00d7c3;
-      border-radius: 50px;
-      -webkit-transition: all .15s ease-in-out;
-      transition: all .15s ease-in-out;
-      color: #00d7c3;
-      text-decoration: none;
-    }
-  .button:hover {
-      box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-      border: 3px solid #00d7c3;
-    }
-  .button:active {
-      box-shadow: none;
-      border: 3px solid #00d7c3;
-    }
-  .button:focus {
-      outline: none;
-      box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0
-      0 0 3px #00d7c3;
-      border: 3px solid #00d7c3;
-    }
+   .btn {
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+    background-color: aquamarine !important;
+    color: #fff;
+  }
+  
+  .btn::after {
+    color: #fff;
+  }
+  
+  .button_link {
+    color: #0dcaf0;
+    text-decoration: none;
+  }
 
 
     h1 {

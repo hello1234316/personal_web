@@ -1,16 +1,41 @@
-// Select the button element
-const changeBackground = document.querySelector('#changeBackground');
+document.addEventListener("DOMContentLoaded", function(){
 
-// Add event listener to the button
-changeBackground.addEventListener('click', () => {
-  // Get a random number between 1 and 4
-  const random = Math.floor(Math.random() * 4) + 1;
+	var loading = new TimelineMax();
+	loading.fromTo(".name",0.6,{ 
+		autoAlpha: 0,
+		y: 20
+	},{ 
+		autoAlpha: 1,
+		y: 0
+	})
+	
+	.fromTo("#intro",0.6,{ 
+		autoAlpha: 0,
+	},{ 
+		autoAlpha: 1,
+	})
 
-  // Remove any existing background classes from the body element
-  document.body.classList.remove('background1', 'background2', 'background3', 'background4');
+	.fromTo("#btn1",0.6,{ 
+		autoAlpha: 0,
+		x: -20
+	},{ 
+		autoAlpha: 1,
+		x: 0
+	},"-=0.6")
 
-  //lower the image file size first lmao
+	.fromTo("#btn2",0.6,{ 
+		autoAlpha: 0,
+		x: 20
+	},{ 
+		autoAlpha: 1,
+		x: 0
+	},"-=0.6")
 
-  // Add the appropriate background class based on the random number
-  document.body.classList.add(`background${random}`);
-});
+	.fromTo("#intro2",0.6,{ 
+		autoAlpha: 0,
+	},{ 
+		autoAlpha: 1,
+	})
+	;
+
+})
