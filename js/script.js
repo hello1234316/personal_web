@@ -15,6 +15,12 @@ document.addEventListener("DOMContentLoaded", function(){
 		autoAlpha: 1,
 	})
 
+	.fromTo("#intro2",0.6,{ 
+		autoAlpha: 0,
+	},{ 
+		autoAlpha: 1,
+	})
+
 	.fromTo("#btn1",0.6,{ 
 		autoAlpha: 0,
 		x: -20
@@ -31,11 +37,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		x: 0
 	},"-=0.6")
 
-	.fromTo("#intro2",0.6,{ 
-		autoAlpha: 0,
-	},{ 
-		autoAlpha: 1,
-	})
+	
 	;
 
 })
