@@ -7,7 +7,7 @@
     padding:0px;
     font-family:helvetica;
     background: radial-gradient(circle, #322538, #1f1f1f);
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ) ,  url(https://wallpapercave.com/wp/wp1848050.jpg) no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ) ,  url(../pic/bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
